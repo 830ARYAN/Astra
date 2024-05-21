@@ -74,8 +74,8 @@ Branch & Merge
 List your branches. A * will appear next to the currently active branch
 git branch
 
-Create a new branch at the current commit
-git branch [branch-name]
+Create a new branch 
+git checkout -b [branch-name]
 
 Switch to another branch and check it out into your working directory
 git checkout [branch-name]
@@ -100,6 +100,14 @@ git diff branchB...branchA
 
 Show any object in Git in human-readable format
 git show [SHA]
+
+    -----uploading project----
+when we have to push we have to make new repository in github then run the command
+get remote origin <link of new repository>
+then push ushing git push origin main
+
+--------pull-----
+get pull origin main
 
 Share & Update
 
